@@ -1,0 +1,67 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: #2a2a2a;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 2.0;
+  color: #f0f8ff;
+}
+
+canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.formButton {
+  background-color: #f0f8ff;
+  border: none;
+  color: #2a2a2a;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.formSection {
+  background-color: #1a1a1a;
+  border: 5px double #f0f8ff;
+  padding: 10px;
+  display: block;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formDivision {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input {
+  cursor: pointer;
+}
+
+.fullScreenButton {
+  background-color: #636363;
+  color: #f0f8ff;
+  font-size: 0.5rem;
+  border: 2px dashed #f0f8ff;
+  border-radius: 5%;
+  box-shadow: none;
+  cursor: pointer;
+  display: block;
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  width: 64px;
+  height: 32px;
+}
